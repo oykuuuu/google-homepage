@@ -1,0 +1,64 @@
+.center-me{
+text-align: center;
+margin-top: 100px;
+}
+body{
+    background-color: white;
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color:rgb(245, 243, 243);
+    position: fixed;
+    top:0;
+    width:100%;
+}
+li{
+    float:left;
+}
+li a{
+    display: block;
+    color:black;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(95, 92, 92);
+}
+li:last-child{
+    background-color: rgb(106, 106, 240);
+
+}
+.style{
+color: rgb(45, 39, 51);
+border:none;
+}
+
+.input{
+    border-radius: 50px;
+    background:transparent;
+    outline:none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding:8px 10px;
+}
+.close-btn{
+    position:absolute;
+    top:210px;
+    right:585px;
+    font-size: 30px;
+    cursor: pointer;
+    color:rgb(34, 33, 33);
+    opacity: 10;
+}
+.container{
+    margin-top: 20px;
+}
+.center-me1{
+    text-align: center;
+    margin-top: 20px;
+}
